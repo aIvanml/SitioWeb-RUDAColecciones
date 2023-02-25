@@ -13,63 +13,60 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="container-fluid">
-    <header>
-        <nav class="navbar-expand">
-            <a href="index.html">
-                <img src="images/logoRuda.png" alt="Logo Ruda">
-            </a>
-            <h1 class="text-center">Diseñamos, fabricamos y vendemos por Mayor y Menor.</h1>
-            <div>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link anclas" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link anclas" href="html/productos.html">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link anclas" href="html/temporadas.html">Temporadas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link anclas" href="html/contacto.html">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link anclas" href="html/dondeestamos.html">Donde estamos?</a>
-                    </li>
-                </ul>
+<body class="container-fluid text-center p-0">
+    <header class="sticky-top pb-2">
+        <a href="index.html">
+            <img src="images/logoRuda.png" alt="Logo Ruda">
+        </a>
+        <h1>Diseñamos, fabricamos y vendemos por Mayor y Menor.</h1>
+        <nav class="navbar navbar-expand-lg menu">
+            <div class="container-fluid">
+                <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav mx-auto">
+                        <a class="link navbar-brand" href="index.html">INICIO</a>
+                        <a class="link navbar-brand" aria-current="page" href="html/productos.html">PRODUCTOS</a>
+                        <a class="link navbar-brand" href="html/temporadas.html">TEMPORADAS</a>
+                        <a class="link navbar-brand" href="html/contacto.html">CONTACTO</a>
+                        <a class="link navbar-brand" href="html/dondeestamos.html">DONDE ESTAMOS?</a>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
-    <main>
-        <div>
-			<div>
-				<figure>
-					<img src="images/fotos/sacooverbeige.jpg" alt="">
-					<h3>Saco Over</h3>
-					<p>Confeccionado en twill sastrero, forrado, con hombreras y armado con entretela.</p>
-				</figure>
-			</div>
-			<div>
-				<figure>
-					<img src="images/fotos/kimonogucci.jpg" alt="">
-					<h3>Kimono</h3>
-					<p>Conjunto de kimono y pantalón GUCCI en satén estampado.</p>
-				</figure>
-			</div>
-			<div>
-				<figure>
-					<img src="images/fotos/satinverde.jpg" alt="">
-					<h3>Conjunto Satin</h3>
-					<p> Camisa oversize y pantalón con elástico y bolsillos.</p>
-				</figure>
-			</div>
-		</div><br>
+    <main class="container-fluid p-2">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="imagen">
+                    <img class="img-fluid rounded" src="images/fotos/sacooverbeige.jpg" alt="Saco Over Beige">
+                    <h3>Saco Over</h3>
+                    <p>Confeccionado en twill sastrero, forrado, con hombreras y armado con entretela.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="imagen">
+                    <img class="img-fluid rounded" src="images/fotos/satinverde.jpg" alt="Satin Verde">
+                    <h3>Conjunto Satin</h3>
+                    <p> Camisa oversize y pantalón con elástico y bolsillos.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="imagen">
+                    <img class="img-fluid rounded" src="images/fotos/kimonogucci.jpg" alt="Kimono GUCCI">
+                    <h3>Kimono</h3>
+                    <p>Conjunto de kimono y pantalón GUCCI en satén estampado.</p>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer>
-        <p>© Copyright Ruda Colecciones - 2023</p>
+    <footer class="p-2">
+        <p class="m-1">© Copyright Ruda Colecciones - 2023</p>
         <div>
-            <a href="https://www.instagram.com/ruda_colecciones/?hl=es" target="_blank"><img
+            <a href="https://www.instagram.com/ruda_colecciones/?hl=es" target="_blank"><img class="m-2"
                     src="images/iconInstagram.png" alt="Icono Instagram"></a>
             <a href="https://api.whatsapp.com/send?phone=541159971385&text=Hola+Ruda%21" target="_blank"><img
                     src="images/iconWhatsapp.png" alt="Icono Whatsapp"></a>
