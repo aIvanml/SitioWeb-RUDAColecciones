@@ -2,7 +2,7 @@
     width: 100px;
 }
 
-header{
+header {
     background-color: white;
 }
 
@@ -21,16 +21,27 @@ footer {
 }
 
 /*************PAGINA PRODUCTOS*************/
-
 .imagen {
     display: inline-block;
     max-width: 301px;
+    margin-bottom: 10px;
+}
+
+.imagen p {
+    padding: 10px;
+}
+
+.imagen:hover {
+    color: white;
+    background-color: #808B96;
+    border-radius: 6px;
 }
 
 .h2-productos {
     margin-top: 20px;
 }
 
+/*************PAGINA TEMPORADAS*************/
 .shorts iframe {
     margin: 10px 30px;
     width: 248px;
@@ -42,4 +53,3 @@ footer {
     height: 550px;
     padding: 10px;
 }
-
