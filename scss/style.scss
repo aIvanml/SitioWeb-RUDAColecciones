@@ -1,7 +1,8 @@
-$colorBlack: black;
-$colorWhite: white;
-$b-color-white: white;
-$b-color-menu: #808B96;
+@import "variables";
+
+@mixin padding10 {
+    padding: 10px;
+}
 
 .logo {
     width: 100px;
@@ -45,7 +46,7 @@ footer {
     margin-bottom: 10px;
 
     p {
-        padding: 10px;
+        @include padding10;
     }
 
     &:hover {
@@ -77,5 +78,18 @@ footer {
 
 .maps {
     height: 550px;
-    padding: 10px;
+    @include padding10;
+}
+
+
+@media (max-width: 768px){
+    .versionmobile {
+        width: 75%;
+    }
+}
+
+@media (min-width: 769px){
+    .versionmobile {
+        width: 60%;
+    }
 }

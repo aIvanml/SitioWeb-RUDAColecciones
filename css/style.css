@@ -67,4 +67,15 @@ footer {
   padding: 10px;
 }
 
+@media (max-width: 768px) {
+  .versionmobile {
+    width: 75%;
+  }
+}
+@media (min-width: 769px) {
+  .versionmobile {
+    width: 60%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
