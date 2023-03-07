@@ -1,0 +1,81 @@
+$colorBlack: black;
+$colorWhite: white;
+$b-color-white: white;
+$b-color-menu: #808B96;
+
+.logo {
+    width: 100px;
+}
+
+header {
+    background-color: $b-color-white;
+}
+
+h1 {
+    margin: 0px 20px 10px 20px;
+}
+
+footer {
+    background-color: $b-color-menu;
+    color: $colorBlack;
+    font-weight: bold;
+}
+
+.img-efecto {
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.menu {
+    background-color: $b-color-menu;
+}
+
+.link {
+    color: $colorWhite;
+}
+
+/*************PAGINA PRODUCTOS*************/
+
+.imagen {
+    display: inline-block;
+    max-width: 301px;
+    margin-bottom: 10px;
+
+    p {
+        padding: 10px;
+    }
+
+    &:hover {
+        color: $colorWhite;
+        background-color: $b-color-menu;
+        border-radius: 6px;
+    }
+}
+
+.h2-productos {
+    margin-top: 20px;
+}
+
+.main-margin {
+    padding-bottom: 80px;
+}
+
+/*************PAGINA TEMPORADAS*************/
+
+.shorts {
+    iframe {
+        margin: 10px 30px;
+        width: 248px;
+        height: 450px;
+    }
+}
+
+/*************PAGINA DONDEESTAMOS*************/
+
+.maps {
+    height: 550px;
+    padding: 10px;
+}

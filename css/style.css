@@ -1,71 +1,70 @@
 .logo {
-    width: 100px;
+  width: 100px;
 }
 
 header {
-    background-color: white;
+  background-color: white;
 }
 
 h1 {
-    margin: 0px 20px 10px 20px;
+  margin: 0px 20px 10px 20px;
 }
 
 footer {
-    background-color: #808B96;
-    color: black;
-    font-weight: bold;
+  background-color: #808B96;
+  color: black;
+  font-weight: bold;
 }
 
 .img-efecto {
-    transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
-
 .img-efecto:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .menu {
-    background-color: #808B96;
+  background-color: #808B96;
 }
 
 .link {
-    color: white;
+  color: white;
 }
 
 /*************PAGINA PRODUCTOS*************/
 .imagen {
-    display: inline-block;
-    max-width: 301px;
-    margin-bottom: 10px;
+  display: inline-block;
+  max-width: 301px;
+  margin-bottom: 10px;
 }
-
 .imagen p {
-    padding: 10px;
+  padding: 10px;
 }
-
 .imagen:hover {
-    color: white;
-    background-color: #808B96;
-    border-radius: 6px;
+  color: white;
+  background-color: #808B96;
+  border-radius: 6px;
 }
 
 .h2-productos {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .main-margin {
-    padding-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 /*************PAGINA TEMPORADAS*************/
 .shorts iframe {
-    margin: 10px 30px;
-    width: 248px;
-    height: 450px;
+  margin: 10px 30px;
+  width: 248px;
+  height: 450px;
 }
 
 /*************PAGINA DONDEESTAMOS*************/
 .maps {
-    height: 550px;
-    padding: 10px;
+  height: 550px;
+  padding: 10px;
 }
+
+/*# sourceMappingURL=style.css.map */
