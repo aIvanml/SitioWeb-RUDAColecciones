@@ -1,9 +1,10 @@
-@import "variables";
+@import "variables", "pagProductos";
 
 @mixin padding10 {
     padding: 10px;
 }
 
+/*************  General *************/
 .logo {
     width: 100px;
 }
@@ -38,31 +39,6 @@ footer {
     color: $colorWhite;
 }
 
-/*************PAGINA PRODUCTOS*************/
-
-.imagen {
-    display: inline-block;
-    max-width: 301px;
-    margin-bottom: 10px;
-
-    p {
-        @include padding10;
-    }
-
-    &:hover {
-        color: $colorWhite;
-        background-color: $b-color-menu;
-        border-radius: 6px;
-    }
-}
-
-.h2-productos {
-    margin-top: 20px;
-}
-
-.main-margin {
-    padding-bottom: 80px;
-}
 
 /*************PAGINA TEMPORADAS*************/
 
@@ -71,25 +47,5 @@ footer {
         margin: 10px 30px;
         width: 248px;
         height: 450px;
-    }
-}
-
-/*************PAGINA DONDEESTAMOS*************/
-
-.maps {
-    height: 550px;
-    @include padding10;
-}
-
-
-@media (max-width: 768px){
-    .versionmobile {
-        width: 75%;
-    }
-}
-
-@media (min-width: 769px){
-    .versionmobile {
-        width: 60%;
     }
 }

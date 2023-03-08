@@ -1,3 +1,27 @@
+/*************  Pagina Productos *************/
+.imagen {
+  display: inline-block;
+  max-width: 301px;
+  margin-bottom: 10px;
+}
+.imagen p {
+  padding: 10px;
+}
+.imagen:hover {
+  color: white;
+  background-color: #808B96;
+  border-radius: 6px;
+}
+
+.h2-productos {
+  margin-top: 20px;
+}
+
+.main-margin {
+  padding-bottom: 80px;
+}
+
+/*************  General *************/
 .logo {
   width: 100px;
 }
@@ -29,29 +53,6 @@ footer {
 
 .link {
   color: white;
-}
-
-/*************PAGINA PRODUCTOS*************/
-.imagen {
-  display: inline-block;
-  max-width: 301px;
-  margin-bottom: 10px;
-}
-.imagen p {
-  padding: 10px;
-}
-.imagen:hover {
-  color: white;
-  background-color: #808B96;
-  border-radius: 6px;
-}
-
-.h2-productos {
-  margin-top: 20px;
-}
-
-.main-margin {
-  padding-bottom: 80px;
 }
 
 /*************PAGINA TEMPORADAS*************/

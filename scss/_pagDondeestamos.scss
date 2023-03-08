@@ -1,0 +1,22 @@
+/*************PAGINA DONDEESTAMOS*************/
+@mixin padding10 {
+    padding: 10px;
+}
+
+.maps {
+    height: 550px;
+    @include padding10;
+}
+
+
+@media (max-width: 768px){
+    .versionmobile {
+        width: 75%;
+    }
+}
+
+@media (min-width: 769px){
+    .versionmobile {
+        width: 60%;
+    }
+}
