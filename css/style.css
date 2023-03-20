@@ -1,26 +1,3 @@
-/*************  Pagina Productos *************/
-.imagen {
-  display: inline-block;
-  max-width: 301px;
-  margin-bottom: 10px;
-}
-.imagen p {
-  padding: 10px;
-}
-.imagen:hover {
-  color: white;
-  background-color: #808B96;
-  border-radius: 6px;
-}
-
-.h2-productos {
-  margin-top: 20px;
-}
-
-.main-margin {
-  padding-bottom: 80px;
-}
-
 /*************  General *************/
 .logo {
   width: 100px;
@@ -55,11 +32,27 @@ footer {
   color: white;
 }
 
-/*************PAGINA TEMPORADAS*************/
-.shorts iframe {
-  margin: 10px 30px;
-  width: 248px;
-  height: 450px;
+/*************  Pagina Productos *************/
+.imagen {
+  display: inline-block;
+  max-width: 301px;
+  margin-bottom: 10px;
+}
+.imagen p {
+  padding: 10px;
+}
+.imagen:hover {
+  color: white;
+  background-color: #808B96;
+  border-radius: 6px;
+}
+
+.h2-productos {
+  margin-top: 20px;
+}
+
+.main-margin {
+  padding-bottom: 80px;
 }
 
 /*************PAGINA DONDEESTAMOS*************/
@@ -77,6 +70,12 @@ footer {
   .versionmobile {
     width: 60%;
   }
+}
+/*************PAGINA TEMPORADAS*************/
+.shorts iframe {
+  margin: 10px 30px;
+  width: 248px;
+  height: 450px;
 }
 
 /*# sourceMappingURL=style.css.map */
